@@ -40,7 +40,7 @@
    RESET
    ============================================ */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; scroll-padding-top: calc(var(--nav-h) + 28px + 2rem); }
+html { scroll-behavior: smooth; scroll-padding-top: calc(var(--nav-h) + 2rem); }
 
 body {
   font-family: var(--font-sans);
@@ -135,7 +135,7 @@ h3 {
 
 .nav {
   position: fixed;
-  top: 28px; left: 0; right: 0;
+  top: 0; left: 0; right: 0;
   height: var(--nav-h);
   z-index: 100;
   transition: background 0.3s, backdrop-filter 0.3s;
@@ -230,7 +230,7 @@ h3 {
   display: flex;
   align-items: flex-end;
   padding-bottom: 6rem;
-  padding-top: calc(var(--nav-h) + 28px + 4rem);
+  padding-top: calc(var(--nav-h) + 4rem);
 }
 
 .hero__grid {
@@ -473,7 +473,7 @@ h3 {
    PAGE HERO — SUBPAGES
    ============================================ */
 .page-hero {
-  padding-top: calc(var(--nav-h) + 28px + 5rem);
+  padding-top: calc(var(--nav-h) + 5rem);
   padding-bottom: 4rem;
 }
 
@@ -994,7 +994,7 @@ h3 {
     display: none;
     position: fixed;
     inset: 0;
-    top: calc(var(--nav-h) + 28px);
+    top: var(--nav-h);
     background: var(--bg);
     flex-direction: column;
     padding: 3rem 1.5rem;
