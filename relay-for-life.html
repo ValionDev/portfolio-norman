@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relay for Life | Norman Valenzuela</title>
+  <meta name="description" content="UX redesign of the FANLYC Relay for Life app, enhancing digital participation through refined task flows, social features, and a cohesive UI system.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23006ef2'/><text x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' fill='%23fff' font-family='serif' font-weight='400' font-size='16'>N</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-banner">This site is currently being updated and migrated. Some content may change.</div>
+
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">Norman Valenzuela</a>
+      <div class="nav__links" id="navLinks">
+        <a href="index.html" class="active">Work</a>
+        <a href="about.html">About</a>
+        <a href="about.html#testimonials">Testimonials</a>
+        <a href="index.html#contact">Contact</a>
+        <button class="nav__theme" id="themeToggle" aria-label="Toggle theme">
+          <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+      </div>
+      <button class="nav__hamburger" id="menuToggle" aria-label="Menu">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="label">App Concept</p>
+        <h1>Relay for Life</h1>
+        <p class="page-hero__intro">UX redesign of the FANLYC platform, enhancing digital participation for a cancer awareness initiative through refined task flows, social features, and a cohesive UI system.</p>
+      </div>
+    </section>
+
+    <section style="padding-bottom:3rem;">
+      <div class="container">
+        <div class="cs-meta">
+          <div class="cs-meta__item">
+            <p class="label">Role</p>
+            <p>UX/UI Designer</p>
+          </div>
+          <div class="cs-meta__item">
+            <p class="label">Client</p>
+            <p>FANLYC (Relay for Life Panama)</p>
+          </div>
+          <div class="cs-meta__item">
+            <p class="label">Type</p>
+            <p>App Concept / Redesign</p>
+          </div>
+          <div class="cs-meta__item">
+            <p class="label">Platform</p>
+            <p>Mobile (iOS & Android)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="cs-banner cs-banner--purple" style="background-image:url('https://firebasestorage.googleapis.com/v0/b/tiny-sites-81c15.firebasestorage.app/o/websiteImages%2F0DXejddQaDXOJ4lsAurZp3gGJaw2%2FmyProjectImage-logofanlyc-3-1761524348770383998.png?alt=media&token=b04c984e-0d2b-4ef2-84ee-8f1a627c2db8');background-size:30%;background-repeat:no-repeat;background-position:center;"></div>
+    </div>
+
+    <section class="section cs-content">
+      <div class="container">
+
+        <h2>Overview</h2>
+        <p>Relay for Life is a global cancer awareness and fundraising event organized by the American Cancer Society. In Panama, FANLYC (Fundacion Nacional de Lucha Contra el Cancer) coordinates the initiative, engaging communities in overnight relay events, fundraising campaigns, and survivor celebrations.</p>
+        <p>The existing digital experience wasn't keeping pace with participant expectations. I redesigned the app concept to improve accessibility, engagement, and the overall experience of participating in Relay for Life events digitally.</p>
+
+        <h2>The Challenge</h2>
+        <p>Participants needed a better way to engage with Relay for Life events before, during, and after. The existing platform had fragmented task flows, limited social features, and an inconsistent visual language that made it harder for both new and returning participants to navigate.</p>
+        <p>Key problems to solve:</p>
+        <ul>
+          <li>Onboarding was confusing for first-time participants unfamiliar with Relay for Life</li>
+          <li>Event registration and team management flows were multi-step with unclear progress</li>
+          <li>No meaningful social layer to connect participants and build community momentum</li>
+          <li>Inconsistent UI patterns across different sections of the app</li>
+        </ul>
+
+        <h2>Approach</h2>
+        <ul>
+          <li>Task flow audit: Mapped every existing user flow, identifying friction points and drop-off moments in registration, team creation, and donation flows</li>
+          <li>Simplified registration: Reduced the event sign-up process from 7 steps to 3, with clear progress indicators and smart defaults</li>
+          <li>Social features: Added team activity feeds, milestone celebrations, and participant leaderboards to build community engagement</li>
+          <li>Cohesive UI system: Built a consistent component library with clear hierarchy, accessible colors, and reusable patterns across the entire app</li>
+        </ul>
+
+        <h2>Key Design Decisions</h2>
+
+        <h3 style="margin-top:2rem;">Event-Centric Navigation</h3>
+        <p>Restructured the app around the event lifecycle: pre-event preparation, live event participation, and post-event celebration. Each phase surfaces different content and actions, so participants always know what's relevant right now.</p>
+
+        <h3 style="margin-top:2rem;">Community & Social Layer</h3>
+        <p>Added team activity feeds, fundraising milestones with celebratory animations, and participant stories. The goal was to make digital participation feel as connected and emotional as being at a physical relay event.</p>
+
+        <h3 style="margin-top:2rem;">Accessible Design</h3>
+        <p>Given the diverse participant base, from young students to cancer survivors and their families, accessibility was central. High-contrast text, clear iconography, large touch targets, and straightforward language throughout.</p>
+
+        <h2>Outcome</h2>
+        <p>Delivered a complete app concept with refined task flows, a social engagement layer, and a unified UI system. The redesign addressed the core usability problems while adding meaningful community features that support the emotional mission of Relay for Life.</p>
+
+        <p style="margin-top:1.5rem;">
+          <a href="https://www.figma.com/proto/NxQVpzKT9bUJQM5hohy0f0/Proyecto-Final-%7C-FANLYC-Relevo-por-la-Vida-al-alcance-de-todos.?node-id=664-7026&t=nD0qs69LDS8ksK0u-0&scaling=min-zoom&content-scaling=fixed&page-id=664%3A7025" target="_blank" rel="noopener" class="btn btn--primary">
+            View Figma Prototype
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+          </a>
+        </p>
+
+        <div class="cs-next">
+          <div><p class="label">Next Project</p></div>
+          <a href="rednblue-app.html">RednBlue App <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-7-7l7 7-7 7"/></svg></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <span>&copy; 2026 Norman Valenzuela</span>
+        <div class="footer__links">
+          <a href="https://www.linkedin.com/in/norman-valenzuela/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.youtube.com/@normanvalenzuela3055" target="_blank" rel="noopener">YouTube</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function(){var h=document.documentElement,s=localStorage.getItem('theme');if(s)h.setAttribute('data-theme',s);document.querySelectorAll('[id^="themeToggle"]').forEach(function(b){b.addEventListener('click',function(){var n=h.getAttribute('data-theme')==='dark'?'light':'dark';h.setAttribute('data-theme',n);localStorage.setItem('theme',n)})})})();
+    (function(){var n=document.getElementById('nav');window.addEventListener('scroll',function(){n.classList.toggle('scrolled',scrollY>30)},{passive:true})})();
+    (function(){var b=document.getElementById('menuToggle'),l=document.getElementById('navLinks');if(!b)return;b.addEventListener('click',function(){l.classList.toggle('open')});l.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){l.classList.remove('open')})})})();
+  </script>
+</body>
+</html>
